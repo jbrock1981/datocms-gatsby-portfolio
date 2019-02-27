@@ -74,7 +74,7 @@ const TemplateWrapper = ({ children }) => (
               > </a>
             ))}
           </p>
-          <div className="sidebar__copyright">{data.datoCmsHome.copyright}</div>
+          <div className="sidebar__copyright">made by jbrock and DatoCMS</div>
         </div>
       </div>
       <div className="container__body">
