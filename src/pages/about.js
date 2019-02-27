@@ -9,8 +9,8 @@ const About = ({ data: { about } }) => (
     <div className="sheet__inner">
       <h1 className="sheet__title">{about.title}</h1>
       <p className="sheet__lead">{about.subtitle}</p>
-      <div className="sheet__gallery about__pic">
-        <Img fluid={about.photo.fluid} />
+      <div className="sheet__gallery">
+        <Img fluid={about.photo.fluid} className="about__pic" />
       </div>
       <div
         className="sheet__body"
